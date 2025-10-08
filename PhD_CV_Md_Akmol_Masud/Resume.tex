@@ -1,0 +1,236 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[margin=0.6in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fontawesome5}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage{multibib}
+\usepackage{url}
+\usepackage{doi}
+
+\newcites{pub}{Publications}
+\newcites{data}{Datasets}
+% Basic settings
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1pt}
+\setlist{nosep}
+
+% duplicate multibib removed
+
+% duplicate newcites removed (defined above)
+
+% Colors
+\definecolor{DeepBlue}{RGB}{0, 82, 164}
+
+% Hyperlink setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=black,
+    citecolor=black,
+    pdftitle={Md. Akmol Masud - CV},
+    pdfauthor={Md. Akmol Masud},
+}
+
+% Custom commands
+\newcommand{\circularimage}[2]{%
+    \begin{tikzpicture}
+        \clip (0,0) circle (#2/2);
+        \node at (0,0) {\includegraphics[width=#2, height=#2, keepaspectratio]{#1}};
+    \end{tikzpicture}%
+}
+
+% ---------- Macros for CV entries (refined style) ----------
+
+% Achievement Entry (compact, date on right, short description)
+\newcommand{\achievemententry}[4]{%
+  \vspace{-3pt}
+  \noindent\textbf{\href{#1}{#2}} \hfill {\footnotesize\textit{#3}} \\
+  {\footnotesize #4}\\[-2pt]
+}
+
+% Experience Entry (compact)
+\newcommand{\experienceentry}[4]{%
+  \vspace{3pt}
+  \noindent\textbf{#1} \hfill {\footnotesize\textit{#3}} \\
+  {\footnotesize\textit{#2}} \\
+  {\footnotesize
+  \begin{itemize}[leftmargin=1.2em, label={\scriptsize$\bullet$}, itemsep=1pt, topsep=0pt, parsep=0pt]
+    #4
+  \end{itemize}
+  }
+  \vspace{2pt}
+}
+
+% Project Entry (compact)
+\newcommand{\projectentry}[4]{%
+  \vspace{-1pt}
+  \noindent\textbf{#1} \hfill {\footnotesize\textit{#2}} \\
+  {\footnotesize #3} \\
+  {\footnotesize\textit{#4}}\\[-1pt]
+}
+
+
+% Your definition of \cvsection
+\newcommand{\cvsection}[1]{
+  \vspace{8pt}
+  \noindent{\Large\bfseries\scshape\color{DeepBlue} #1}
+  \vspace{2pt}
+  \noindent{\color{DeepBlue!80}\hrulefill}
+  \vspace{2pt}
+}
+
+
+\begin{document}
+
+%---------- HEADING ----------
+\par\noindent
+\begin{minipage}[c]{0.73\linewidth}
+    {\Huge \bfseries \color{DeepBlue} Md Akmol Masud}\\[5pt]
+    {\large Institute of Information Technology, Jahangirnagar University}\\[10pt]
+
+    \small
+    \begin{tabular}{@{}l @{\hspace{2em}} l}
+        \faEnvelope \enskip \href{mailto:akmolmasud5@gmail.com}{Email} &
+        \faLinkedin \enskip \href{https://www.linkedin.com/in/akmolmasudayon/}{LinkedIn} \\
+        \faPhone \enskip +880-1304-963440 &
+        \faGithub \enskip \href{https://github.com/masud1901}{GitHub} \\
+        \faGlobe \enskip \href{https://masud1901.github.io/ayon}{Portfolio} &
+        \faGoogle \enskip \href{https://scholar.google.com/citations?user=uRY4vdIAAAAJ&hl=en}{Google Scholar} \\
+    \end{tabular}
+\end{minipage}%
+\hfill
+\begin{minipage}[c]{0.25\linewidth}
+    \raggedleft
+    \vspace{-15pt}
+    \circularimage{profile.jpg}{1.4in}
+\end{minipage}
+
+\vspace{3pt}
+\noindent{\color{DeepBlue!80}\hrulefill}
+\vspace{3pt}
+
+%-----------EDUCATION-----------------
+\cvsection{Education}
+
+\noindent
+{\textbf{Institute of Information Technology, Jahangirnagar University}} \hfill \textit{Dhaka, Bangladesh} \\
+M.Sc. in Information and Communication Technology (Ongoing) \hfill \textit{Oct 2024 – Present} \\
+B.Sc. in Information and Communication Technology; CGPA: 3.29/4.0 (Final Semester: 3.6) \hfill \textit{Feb 2019 – Sep 2024} \\
+\vspace{2pt}
+
+{\textbf{Sylhet Cadet College}} \hfill \textit{Sylhet, Bangladesh} \\
+Higher Secondary Certificate (HSC); (Science); GPA: 5.0/5.0 \hfill \textit{Apr 2016 – May 2018} \\
+Secondary School Certificate (SSC); (Science); GPA: 5.0/5.0 \hfill \textit{Jan 2014 – Apr 2016}
+
+%-----------Certifications-----------------
+\cvsection{Certifications}
+
+\textbf{IBM Data Science Professional Certificate}
+\href{https://www.coursera.org/account/accomplishments/specialization/certificate/FX63HAR6A571}{\textit{(View Certificate)}} 
+\hfill \textit{Apr 2025} \\
+\vspace{1pt}
+{\small\textit{12-course specialization covering Python (NumPy, Pandas), SQL, data cleaning, visualization, exploratory data analysis, and introductory supervised learning. Applied these skills through hands-on projects, strengthening foundations for data-driven research.}}\\[2pt]
+
+\textbf{Reinforcement Learning Specialization (University of Alberta)}
+\href{https://www.coursera.org/specializations/reinforcement-learning}{\textit{(Ongoing)}} 
+\hfill \textit{Expected Dec 2025} \\
+\vspace{1pt}
+{\small\textit{4-course advanced specialization in reinforcement learning: k-armed bandit problems, Markov Decision Processes, dynamic programming, temporal-difference methods, policy gradient approaches, and deep RL. Building strong theoretical grounding for applications in federated and distributed learning systems.}}\\[2pt]
+
+
+%-----------Research Interests-----------------
+\cvsection{Research Interests}
+
+Data-Efficient Deep Learning,Federated Learning, Trustworthy AI, Robust Machine Learning, Computer Vision, Generative AI
+
+%-----------Publications-----------------
+\cvsection{Publications}
+\nocitepub{*}
+\begingroup
+\renewcommand{\section}[2]{}
+\bibliographystylepub{unsrt}
+\bibliographypub{publications}
+\endgroup
+
+% %-----------Datasets-----------------
+% \cvsection{Datasets}
+% \nocitedata{*}
+% \begingroup
+% \renewcommand{\section}[2]{}
+% \bibliographystyledata{unsrt}
+% \bibliographydata{datasets}
+% \endgroup
+
+\newpage
+%----------- Projects -----------------
+\cvsection{Projects}
+
+\projectentry{\href{https://github.com/masud1901/human-detection-through-yolov8}{Human Detection Application with YOLOv8}}{Computer Vision · FastAPI · Streamlit · Docker · AWS EC2}{Developed a full-stack web application for detecting humans in user-uploaded images. Integrated a YOLOv8 object detection model backend (FastAPI) with a Streamlit frontend. Fully containerized using Docker and deployed on AWS EC2 for scalable access.}{\href{https://replit.nimbusrb.com/}{\textit{Live Demo}}}
+
+\projectentry{\href{https://github.com/masud1901/MosQNet-SA}{MosQNet-SA}}{Computer Vision · Deep Learning}{Official codebase for undergraduate thesis. Developed a deep learning-based mosquito species classification framework with experiments, results, and visualizations, emphasizing real-world applicability in vector control.}{\textit{Code and experiments on GitHub}}
+
+\begin{center}
+    \faGithub\ \href{https://github.com/masud1901}{\textmd{Explore more projects on GitHub}}
+\end{center}
+\vspace{8pt}
+
+%----------- Experience & Leadership ----------
+\cvsection{Experience \& Leadership}
+
+\experienceentry{Co-founder \& Research Analyst}{Nimbus Research Bureau}{Oct 2024 – Present}{
+    \item Designed robust analytics pipelines to convert raw data into actionable, executive-level recommendations.
+    \item Led end-to-end market research projects, from survey design to delivery of strategic insights.
+}
+
+\experienceentry{Media, Communications, \& Membership Development Lead}{IEEE JU Student Branch}{Feb 2022 – Aug 2024}{
+    \item Organized high-impact workshops and seminars with industry experts to enhance members’ technical skills.
+    \item Directed outreach campaigns, increasing visibility and growing membership by \textbf{40\%}.
+}
+
+%----------- Awards & Achievements -----------
+\cvsection{Awards \& Achievements}
+
+\achievemententry{https://www.hackerearth.com/challenges/new/competitive/zelestra-x-aws-ml-ascend-challenge-second-edition/}
+    {Zelestra x AWS ML Ascend Challenge}
+    {Jun 2025}
+    {Achieved \textbf{Top 8\%} (84th out of 1,016 global teams) in a machine learning competition focused on solar energy forecasting.}
+
+\achievemententry{https://www.kaggle.com/competitions/dl-enigma-10-sust-cse-carnival-2024}
+    {DL Enigma 1.0 – SUST CSE Carnival}
+    {Jan – Feb 2024}
+    {Ranked \textbf{63rd} in a competitive computer vision challenge emphasizing deep learning model efficiency.}
+
+\achievemententry{https://www.kaggle.com/competitions/nlp-competition-cuet-ete-day-2023/overview}
+    {CUET ETE ML Competition}
+    {Nov 2023}
+    {Secured \textbf{37th place} out of 200+ teams in a deep learning and NLP-focused competition.}
+
+\achievemententry{https://www.linkedin.com/in/akmolmasudayon/overlay/1722167029630/single-media-viewer/}
+    {Duke of Edinburgh Leadership Award}
+    {Feb 2017}
+    {Earned the Bronze Standard for demonstrated leadership, perseverance, and teamwork.}
+
+%----------- Extracurricular Activities -----------
+\cvsection{Extracurricular Activities}
+
+\begin{itemize}[leftmargin=1.2em, label={\small\textbullet}, itemsep=3pt, topsep=2pt]
+    \item \textbf{Competitive Athletics:} First Place in 110m Hurdles and Second Place in High Jump at Jahangirnagar University Annual Athletics Competitions (2024–2025).
+    \item \textbf{Community Engagement:} Active volunteer with the E-Business and Entrepreneurship Club; 
+          participant in a co-design workshop on early detection of dementia.
+\end{itemize}
+
+%----------- References -----------
+\cvsection{References}
+
+\noindent
+\textbf{Dr. Mohammad Abu Yousuf} \\
+Vice-Chancellor, Gazipur Digital University \\
+Professor, Institute of Information Technology, Jahangirnagar University \\
+\textbf{Email:} \href{mailto:yousuf@juniv.edu}{yousuf@juniv.edu} \\
+\textbf{Mobile:} +880 1711-469636
+
+\end{document}

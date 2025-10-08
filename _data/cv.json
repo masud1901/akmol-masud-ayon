@@ -1,152 +1,364 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Md. Akmol Masud",
+    "email": "akmolmasud5@gmail.com",
+    "phone": "+880-1304-963440",
+    "website": "https://masud1901.github.io/ayon",
+    "summary": "AI/ML Researcher specializing in Computer Vision and Federated Learning. M.Sc. Student in Information and Communication Technology at Jahangirnagar University with expertise in quantum machine learning, medical AI, and data-efficient deep learning.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "Dhaka",
+      "countryCode": "BD",
+      "region": "Bangladesh"
     },
     "profiles": [
       {
         "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "username": "uRY4vdIAAAAJ",
+        "url": "https://scholar.google.com/citations?user=uRY4vdIAAAAJ&hl=en"
       },
       {
-        "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "network": "LinkedIn",
+        "username": "akmolmasudayon",
+        "url": "https://www.linkedin.com/in/akmolmasudayon/"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "masud1901",
+        "url": "https://github.com/masud1901"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Nimbus Research Bureau",
+      "position": "Co-founder & Research Analyst",
+      "website": "",
+      "startDate": "2024-10-01",
+      "endDate": "Present",
+      "summary": "Designed robust analytics pipelines to convert raw data into actionable, executive-level recommendations. Led end-to-end market research projects, from survey design to delivery of strategic insights.",
+      "highlights": [
+        "Designed robust analytics pipelines for executive-level recommendations",
+        "Led end-to-end market research projects from survey design to strategic insights"
+      ]
+    },
+    {
+      "company": "IEEE JU Student Branch",
+      "position": "Media, Communications, & Membership Development Lead",
+      "website": "",
+      "startDate": "2022-02-01",
+      "endDate": "2024-08-01",
+      "summary": "Organized high-impact workshops and seminars with industry experts. Directed outreach campaigns, increasing visibility and growing membership by 40%.",
+      "highlights": [
+        "Organized workshops and seminars with industry experts",
+        "Increased membership by 40% through strategic outreach campaigns"
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "institution": "Institute of Information Technology, Jahangirnagar University",
+      "area": "M.Sc. in Information and Communication Technology",
+      "studyType": "Masters",
+      "startDate": "2024-10",
+      "endDate": "Present",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
+      "institution": "Institute of Information Technology, Jahangirnagar University",
+      "area": "B.Sc. in Information and Communication Technology",
+      "studyType": "Bachelors",
+      "startDate": "2019-02",
+      "endDate": "2024-09",
+      "gpa": "3.29",
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
+      "institution": "Sylhet Cadet College",
+      "area": "Higher Secondary Certificate (HSC) - Science",
+      "studyType": "High School",
+      "startDate": "2016-04",
+      "endDate": "2018-05",
+      "gpa": "5.0",
+      "courses": []
+    },
+    {
+      "institution": "Sylhet Cadet College",
+      "area": "Secondary School Certificate (SSC) - Science",
+      "studyType": "High School",
+      "startDate": "2014-01",
+      "endDate": "2016-04",
+      "gpa": "5.0",
       "courses": []
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
-  "references": [],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "Advanced",
+      "keywords": ["Python", "JavaScript", "SQL", "LaTeX"]
+    },
+    {
+      "name": "Machine Learning & AI",
+      "level": "Advanced",
+      "keywords": [
+        "Deep Learning",
+        "Federated Learning",
+        "Computer Vision",
+        "Quantum Machine Learning",
+        "TensorFlow",
+        "PyTorch",
+        "Scikit-learn"
+      ]
+    },
+    {
+      "name": "Data Science",
+      "level": "Advanced",
+      "keywords": [
+        "Data Analysis",
+        "Statistical Modeling",
+        "Data Visualization",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Seaborn"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "Intermediate",
+      "keywords": ["FastAPI", "Streamlit", "Docker", "AWS EC2", "RESTful APIs"]
+    },
+    {
+      "name": "Research & Analysis",
+      "level": "Advanced",
+      "keywords": [
+        "Research Design",
+        "Market Research",
+        "Data Pipeline Design",
+        "Statistical Analysis"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Bengali",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [
+    "Data-Efficient Deep Learning",
+    "Federated Learning",
+    "Trustworthy AI",
+    "Robust Machine Learning",
+    "Computer Vision",
+    "Generative AI",
+    "Quantum Machine Learning"
+  ],
+  "certifications": [
+    {
+      "name": "IBM Data Science Professional Certificate",
+      "date": "2025-04-01",
+      "issuer": "IBM via Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/FX63HAR6A571",
+      "summary": "12-course specialization covering Python (NumPy, Pandas), SQL, data cleaning, visualization, exploratory data analysis, and introductory supervised learning. Applied these skills through hands-on projects, strengthening foundations for data-driven research."
+    },
+    {
+      "name": "Reinforcement Learning Specialization",
+      "date": "2025-12-01",
+      "issuer": "University of Alberta via Coursera",
+      "url": "https://www.coursera.org/specializations/reinforcement-learning",
+      "summary": "4-course advanced specialization in reinforcement learning: k-armed bandit problems, Markov Decision Processes, dynamic programming, temporal-difference methods, policy gradient approaches, and deep RL. Building strong theoretical grounding for applications in federated and distributed learning systems.",
+      "status": "Ongoing"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Zelestra x AWS ML Ascend Challenge",
+      "date": "2025-06-01",
+      "awarder": "HackerEarth",
+      "summary": "Achieved Top 8% (84th out of 1,016 global teams) in a machine learning competition focused on solar energy forecasting.",
+      "url": "https://www.hackerearth.com/challenges/new/competitive/zelestra-x-aws-ml-ascend-challenge-second-edition/"
+    },
+    {
+      "title": "DL Enigma 1.0 – SUST CSE Carnival",
+      "date": "2024-02-01",
+      "awarder": "Shahjalal University of Science and Technology",
+      "summary": "Ranked 63rd in a competitive computer vision challenge emphasizing deep learning model efficiency.",
+      "url": "https://www.kaggle.com/competitions/dl-enigma-10-sust-cse-carnival-2024"
+    },
+    {
+      "title": "CUET ETE ML Competition",
+      "date": "2023-11-01",
+      "awarder": "Chittagong University of Engineering and Technology",
+      "summary": "Secured 37th place out of 200+ teams in a deep learning and NLP-focused competition.",
+      "url": "https://www.kaggle.com/competitions/nlp-competition-cuet-ete-day-2023/overview"
+    },
+    {
+      "title": "Duke of Edinburgh Leadership Award",
+      "date": "2017-02-01",
+      "awarder": "Duke of Edinburgh's Award",
+      "summary": "Earned the Bronze Standard for demonstrated leadership, perseverance, and teamwork.",
+      "url": "https://www.linkedin.com/in/akmolmasudayon/overlay/1722167029630/single-media-viewer/"
+    }
+  ],
+  "references": [
+    {
+      "name": "Dr. Mohammad Abu Yousuf",
+      "reference": "Vice-Chancellor, Gazipur Digital University; Professor, Institute of Information Technology, Jahangirnagar University",
+      "email": "yousuf@juniv.edu",
+      "phone": "+880 1711-469636"
+    }
+  ],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Stabilizing Federated Learning under Extreme Heterogeneity with HeteRo-Select",
+      "publisher": "arXiv",
+      "releaseDate": "2025-08-01",
+      "website": "https://arxiv.org/abs/2508.06692",
+      "summary": "A novel approach to stabilize federated learning under extreme data heterogeneity using the HeteRo-Select method."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Enhanced Alzheimer's Brain Scan Dataset: Normal and Synthesized",
+      "publisher": "Zenodo Dataset",
+      "releaseDate": "2024-01-01",
+      "website": "https://doi.org/10.5281/zenodo.14238547",
+      "summary": "A comprehensive dataset of normal and synthesized Alzheimer's brain scans for developing and testing diagnostic models."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "MosqVision-3K: A Balanced Multi-Source Dataset of 3,000 Annotated Images for Culex, Anopheles, and Aedes Mosquito Species Classification",
+      "publisher": "Zenodo Dataset",
+      "releaseDate": "2024-01-01",
+      "website": "https://doi.org/10.5281/zenodo.14238701",
+      "summary": "A balanced dataset containing 3,000 annotated images of three major mosquito species for classification tasks."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "KACQ-DCNN: Uncertainty-Aware Interpretable Kolmogorov-Arnold Classical-Quantum Dual-Channel Neural Network for Heart Disease Detection",
+      "publisher": "arXiv",
+      "releaseDate": "2024-10-01",
+      "website": "https://arxiv.org/abs/2410.07446",
+      "summary": "A hybrid classical-quantum neural network with uncertainty awareness and interpretability for heart disease detection."
+    },
+    {
+      "name": "MosQNet-SA: Explainable convolutional-attention network for mosquito classification with application as a RESTful API for dengue and malaria risk mapping",
+      "publisher": "Figshare",
+      "releaseDate": "2024-12-01",
+      "website": "https://doi.org/10.6084/m9.figshare.27996986.v2",
+      "summary": "An explainable CNN with an attention mechanism for mosquito classification, deployed as a RESTful API for disease risk mapping."
+    },
+    {
+      "name": "Lorentz-Equivariant Quantum Graph Neural Network for High-Energy Physics",
+      "publisher": "IEEE Transactions on Artificial Intelligence",
+      "releaseDate": "2025-01-01",
+      "website": "https://doi.org/10.1109/TAI.2025.3554461",
+      "summary": "A quantum graph neural network that respects Lorentz symmetry, designed for high-energy physics applications."
+    },
+    {
+      "name": "Multi-Layered Password-Based Steganography: A Novel Approach for Tiered Information Hiding",
+      "publisher": "ECCE 2025 Conference Proceedings",
+      "releaseDate": "2025-01-01",
+      "website": "https://doi.org/10.1109/ECCE64574.2025.11013270",
+      "summary": "A new steganography technique using multiple password layers for enhanced security and tiered data hiding."
+    },
+    {
+      "name": "Dream: A Novel Explainable Neural Network for Detecting Sleep Apnea Using Single-Lead ECG Signals",
+      "publisher": "SSRN",
+      "releaseDate": "2025-01-01",
+      "website": "https://doi.org/10.2139/ssrn.5139337",
+      "summary": "An explainable deep learning model named Dream for accurate sleep apnea detection from single-lead ECG signals."
+    },
+    {
+      "name": "Quantum Rationale-Aware Graph Contrastive Learning for Jet Discrimination",
+      "publisher": "arXiv",
+      "releaseDate": "2024-11-01",
+      "website": "https://arxiv.org/abs/2411.01642",
+      "summary": "A novel graph contrastive learning method with quantum computing principles for improved jet discrimination in particle physics."
+    },
+    {
+      "name": "Pseudo-RGB Data Augmentation for Improved Alzheimer's Disease Detection: An Analysis of CNN Performance",
+      "publisher": "Figshare",
+      "releaseDate": "2024-01-01",
+      "website": "https://doi.org/10.6084/m9.figshare.27997094.v1",
+      "summary": "An analysis of a pseudo-RGB data augmentation technique to enhance the performance of CNNs for Alzheimer's detection."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
+  "presentations": [],
+  "teaching": [],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "name": "Multilingual RAG System - Bangla Text Book Pipeline",
+      "category": "RAG",
+      "date": "2024",
+      "url": "https://github.com/masud1901/bangla-rag-pipeline",
+      "description": "Built a complete Retrieval-Augmented Generation (RAG) system that understands both English and Bengali. Features dual embedding strategy (Cohere + OpenAI), advanced reranking, OCR processing for Bengali text, and a FastAPI backend with Streamlit GUI. Successfully deployed on AWS EC2 with Nginx reverse proxy. The system ingests HSC Bangla textbooks and provides intelligent question answering capabilities."
+    },
+    {
+      "name": "Human Detection with YOLOv8",
+      "category": "Computer Vision",
+      "date": "2024",
+      "url": "https://github.com/masud1901/human-detection-through-yolov8",
+      "description": "Developed a full-stack web application for detecting humans in user-uploaded images. Features a YOLO object detection model backend (FastAPI), a Streamlit frontend, and is fully containerized with Docker for easy deployment on an AWS EC2 instance."
+    },
+    {
+      "name": "Multi-Layered Password Steganography",
+      "category": "Security",
+      "date": "2025",
+      "url": "https://github.com/masud1901/Multi-Layered-Password-Based-Steganography",
+      "description": "Developing a novel steganography technique using multiple password layers for enhanced security and tiered data protection, based on research for ECCE 2025."
+    },
+    {
+      "name": "Privacy-Robustness Bound in Federated Learning",
+      "category": "Federated Learning",
+      "date": "2024",
+      "url": "https://github.com/masud1901/Privacy-Robustness-Bound-aggrigation",
+      "description": "This research proposes and empirically validates a Privacy-Robustness Bound (PRB), a theoretical framework for quantifying the trade-off between differential privacy and model robustness against poisoning attacks in federated learning."
+    },
+    {
+      "name": "Monte Carlo Simulation for Bangladesh Election",
+      "category": "Statistics",
+      "date": "2024",
+      "url": "https://github.com/masud1901/Bangladesh-Political-Landscape-with-Monte-Carlo-Simulation",
+      "description": "Developing statistical models using Monte Carlo methods to analyze electoral patterns and political spectrum distribution in Bangladesh."
+    },
+    {
+      "name": "Ice Cream Brand Analysis",
+      "category": "Data Analysis",
+      "date": "2024",
+      "url": "https://github.com/masud1901/Ice-cream-brand-analysis",
+      "description": "An analysis project focused on the ice cream market, exploring brand popularity, consumer sentiment, and market trends using modern data analysis techniques."
+    },
+    {
+      "name": "Clickshots Package",
+      "category": "Python",
+      "date": "2024",
+      "url": "https://github.com/masud1901/clickshot",
+      "description": "Building a comprehensive Python package for automated screenshot capture and processing with advanced image manipulation capabilities."
+    }
+  ],
+  "extracurricular": [
+    {
+      "activity": "Competitive Athletics",
+      "organization": "Jahangirnagar University Annual Athletics Competitions",
+      "date": "2024-2025",
+      "description": "First Place in 110m Hurdles and Second Place in High Jump"
+    },
+    {
+      "activity": "Community Engagement",
+      "organization": "E-Business and Entrepreneurship Club",
+      "date": "2024",
+      "description": "Active volunteer and participant in co-design workshop on early detection of dementia"
+    },
+    {
+      "activity": "IEEE JU Student Branch",
+      "organization": "Institute of Electrical and Electronics Engineers",
+      "date": "2022-2024",
+      "description": "Active member and leadership role in organizing technical workshops and seminars"
     }
   ]
 }

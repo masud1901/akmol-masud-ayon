@@ -1,0 +1,199 @@
+{
+  "publications": [
+    {
+      "title": "Stabilizing Federated Learning under Extreme Heterogeneity with HeteRo-Select",
+      "authors": "Masud, M. A., Jahin, M. A., & Hasan, M.",
+      "year": "2025",
+      "description": "A novel approach to stabilize federated learning under extreme data heterogeneity using the HeteRo-Select method.",
+      "underReview": true,
+      "venue": "arXiv Preprint",
+      "links": {
+        "arxiv": "https://arxiv.org/abs/2508.06692",
+        "pdf": "https://arxiv.org/pdf/2508.06692.pdf"
+      }
+    },
+    {
+      "title": "Enhanced Alzheimer's Brain Scan Dataset: Normal and Synthesized",
+      "authors": "Masud, M. A.",
+      "year": "2024",
+      "description": "A comprehensive dataset of normal and synthesized Alzheimer's brain scans for developing and testing diagnostic models.",
+      "underReview": false,
+      "venue": "Zenodo Dataset",
+      "links": {
+        "doi": "https://doi.org/10.5281/zenodo.14238547"
+      }
+    },
+    {
+      "title": "MosqVision-3K: A Balanced Multi-Source Dataset of 3,000 Annotated Images for Culex, Anopheles, and Aedes Mosquito Species Classification",
+      "authors": "Masud, M. A.",
+      "year": "2024",
+      "description": "A balanced dataset containing 3,000 annotated images of three major mosquito species for classification tasks.",
+      "underReview": false,
+      "venue": "Zenodo Dataset",
+      "links": {
+        "doi": "https://doi.org/10.5281/zenodo.14238701"
+      }
+    },
+    {
+      "title": "KACQ-DCNN: Uncertainty-Aware Interpretable Kolmogorov-Arnold Classical-Quantum Dual-Channel Neural Network for Heart Disease Detection",
+      "authors": "Jahin, M. A., Masud, M. A., Mridha, M. F., Aung, Z., & Dey, N.",
+      "year": "2024",
+      "description": "A hybrid classical-quantum neural network with uncertainty awareness and interpretability for heart disease detection.",
+      "underReview": true,
+      "venue": "arXiv Preprint",
+      "links": {
+        "arxiv": "https://arxiv.org/abs/2410.07446",
+        "pdf": "https://arxiv.org/pdf/2410.07446.pdf"
+      }
+    },
+    {
+      "title": "MosQNet-SA: Explainable convolutional-attention network for mosquito classification with application as a RESTful API for dengue and malaria risk mapping",
+      "authors": "Masud, M. A., Akter, S., Sultana, N., Islam, M. S., Yousuf, M. A., Noori, F. M., & Uddin, M. Z.",
+      "year": "2024",
+      "description": "An explainable CNN with an attention mechanism for mosquito classification, deployed as a RESTful API for disease risk mapping.",
+      "underReview": true,
+      "venue": "Figshare Preprint",
+      "links": {
+        "doi": "https://doi.org/10.6084/m9.figshare.27996986.v2",
+        "pdf": "https://doi.org/10.6084/m9.figshare.27996986.v2"
+      }
+    },
+    {
+      "title": "Lorentz-Equivariant Quantum Graph Neural Network for High-Energy Physics",
+      "authors": "Jahin, M. A., Masud, M. A., Suva, M. W., Mridha, M. F., & Dey, N.",
+      "year": "2025",
+      "description": "A quantum graph neural network that respects Lorentz symmetry, designed for high-energy physics applications.",
+      "underReview": false,
+      "venue": "IEEE Transactions on Artificial Intelligence",
+      "links": {
+        "doi": "https://doi.org/10.1109/TAI.2025.3554461",
+        "pdf": "https://doi.org/10.1109/TAI.2025.3554461"
+      }
+    },
+    {
+      "title": "Multi-Layered Password-Based Steganography: A Novel Approach for Tiered Information Hiding",
+      "authors": "Masud, M. A., Akter, S., Sultana, N., Yousuf, M. A., & Uddin, M. Z.",
+      "year": "2025",
+      "description": "A new steganography technique using multiple password layers for enhanced security and tiered data hiding.",
+      "underReview": false,
+      "venue": "ECCE 2025 Conference Proceedings",
+      "links": {
+        "doi": "https://doi.org/10.1109/ECCE64574.2025.11013270",
+        "pdf": "https://doi.org/10.1109/ECCE64574.2025.11013270"
+      }
+    },
+    {
+      "title": "Dream: A Novel Explainable Neural Network for Detecting Sleep Apnea Using Single-Lead ECG Signals",
+      "authors": "Akter, S., Masud, M. A., Promi, M. S. I., Sultana, N., Ahmed, M., Rahman, M. M., Yousuf, M. A., Aloteibi, S., & Moni, M. A.",
+      "year": "2025",
+      "description": "An explainable deep learning model named Dream for accurate sleep apnea detection from single-lead ECG signals.",
+      "underReview": true,
+      "venue": "SSRN Preprint",
+      "links": {
+        "doi": "https://doi.org/10.2139/ssrn.5139337",
+        "code": "https://github.com/masud1901/Multi-Layered-Password-Based-Steganography"
+      }
+    },
+    {
+      "title": "Quantum Rationale-Aware Graph Contrastive Learning for Jet Discrimination",
+      "authors": "Jahin, M. A., Masud, M. A., Mridha, M. F., & Dey, N.",
+      "year": "2024",
+      "description": "A novel graph contrastive learning method with quantum computing principles for improved jet discrimination in particle physics.",
+      "underReview": true,
+      "venue": "arXiv Preprint (Submitted to NeurIPS 2025)",
+      "links": {
+        "arxiv": "https://arxiv.org/abs/2411.01642",
+        "pdf": "https://arxiv.org/pdf/2411.01642.pdf"
+      }
+    },
+    {
+      "title": "Pseudo-RGB Data Augmentation for Improved Alzheimer's Disease Detection: An Analysis of CNN Performance",
+      "authors": "Masud, M. A., Akter, S., Sultana, N., Hosen, M. B., Anannya, M., Yousuf, M. A., Azad, A. K. M., Alyami, S. A., & Moni, M. A.",
+      "year": "2024",
+      "description": "An analysis of a pseudo-RGB data augmentation technique to enhance the performance of CNNs for Alzheimer's detection.",
+      "underReview": true,
+      "venue": "Figshare Preprint",
+      "links": {
+        "doi": "https://doi.org/10.6084/m9.figshare.27997094.v1",
+        "code": "https://github.com/masud1901/Alzheimers-Pseudo-RGB-Dataset-Comperative-Study",
+        "pdf": "https://doi.org/10.6084/m9.figshare.27997094.v1"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "title": "Multilingual RAG System - Bangla Text Book Pipeline",
+      "subtitle": "A sophisticated RAG system for Bengali textbook question answering.",
+      "status": "Completed",
+      "description": "Built a complete Retrieval-Augmented Generation (RAG) system that understands both English and Bengali. Features dual embedding strategy (Cohere + OpenAI), advanced reranking, OCR processing for Bengali text, and a FastAPI backend with Streamlit GUI. Successfully deployed on AWS EC2 with Nginx reverse proxy. The system ingests HSC Bangla textbooks and provides intelligent question answering capabilities.",
+      "tags": [
+        "RAG",
+        "Multilingual AI",
+        "FastAPI",
+        "Streamlit",
+        "Docker",
+        "AWS EC2",
+        "ChromaDB",
+        "OCR",
+        "Bengali NLP"
+      ],
+      "link": "https://github.com/masud1901/bangla-rag-pipeline",
+      "demo_link": "https://ragbangla.nimbusrb.com/"
+    },
+    {
+      "title": "Human Detection with YOLOv8",
+      "subtitle": "A web application with a FastAPI backend and Streamlit frontend.",
+      "status": "Active",
+      "description": "Developed a full-stack web application for detecting humans in user-uploaded images. Features a YOLO object detection model backend (FastAPI), a Streamlit frontend, and is fully containerized with Docker for easy deployment on an AWS EC2 instance.",
+      "tags": ["Computer Vision", "FastAPI", "Streamlit", "Docker", "AWS EC2"],
+      "link": "https://github.com/masud1901/human-detection-through-yolov8",
+      "demo_link": "https://replit.nimbusrb.com/"
+    },
+    {
+      "title": "Multi-Layered Password Steganography",
+      "subtitle": "A novel approach for tiered information hiding.",
+      "status": "Active Research",
+      "description": "Developing a novel steganography technique using multiple password layers for enhanced security and tiered data protection, based on research for ECCE 2025.",
+      "tags": ["Steganography", "Data Hiding", "AES-CBC", "Python"],
+      "link": "https://github.com/masud1901/Multi-Layered-Password-Based-Steganography",
+      "demo_link": "https://www.youtube.com/watch?v=Uf8DsTQ9t9s"
+    },
+    {
+      "title": "Privacy-Robustness Bound in Federated Learning",
+      "subtitle": "A theoretical framework for the privacy-robustness trade-off.",
+      "status": "Research",
+      "description": "This research proposes and empirically validates a Privacy-Robustness Bound (PRB), a theoretical framework for quantifying the trade-off between differential privacy and model robustness against poisoning attacks in federated learning.",
+      "tags": [
+        "Federated Learning",
+        "Differential Privacy",
+        "Robustness",
+        "Python"
+      ],
+      "link": "https://github.com/masud1901/Privacy-Robustness-Bound-aggrigation"
+    },
+    {
+      "title": "Monte Carlo Simulation for Bangladesh Election",
+      "subtitle": "Statistical Modeling for Political Analysis",
+      "status": "Active Research",
+      "description": "Developing statistical models using Monte Carlo methods to analyze electoral patterns and political spectrum distribution in Bangladesh.",
+      "tags": ["Monte Carlo Simulation", "Political Spectrum", "Statistics"],
+      "link": "https://github.com/masud1901/Bangladesh-Political-Landscape-with-Monte-Carlo-Simulation"
+    },
+    {
+      "title": "Ice Cream Brand Analysis",
+      "subtitle": "Data analysis of consumer preferences and market trends.",
+      "status": "In Progress",
+      "description": "An analysis project focused on the ice cream market, exploring brand popularity, consumer sentiment, and market trends using modern data analysis techniques.",
+      "tags": ["Data Analysis", "Market Research", "Data Visualization"],
+      "link": "https://github.com/masud1901/Ice-cream-brand-analysis"
+    },
+    {
+      "title": "Clickshots Package",
+      "subtitle": "Python Package for Screenshot Automation",
+      "status": "In Progress",
+      "description": "Building a comprehensive Python package for automated screenshot capture and processing with advanced image manipulation capabilities.",
+      "tags": ["Python", "Package Dev", "Automation", "PyPI"],
+      "link": "https://github.com/masud1901/clickshot"
+    }
+  ]
+}

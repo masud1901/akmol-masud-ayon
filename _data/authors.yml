@@ -5,7 +5,7 @@ default:
   uri: "https://akmolmasudayon.github.io"
   email: "akmolmasud5@gmail.com"
   bio: "M.Sc. Student in ICT, Jahangirnagar University. PhD Aspirant."
-  avatar: "profile.jpg"
+  avatar: "/images/profile.jpg"
   twitter: "https://x.com/ayon1901"
   google_plus: ""
   googlescholar: "https://scholar.google.com/citations?user=uRY4vdIAAAAJ&hl=en"

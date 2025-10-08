@@ -22,7 +22,7 @@ repository: "masud1901/akmol-masud-ayon"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar: "profile.jpg"
+  avatar: "/images/profile.jpg"
   name: "Md Akmol Masud"
   pronouns: # example: "she/her"
   bio: "M.Sc. Student in ICT, Jahangirnagar University. PhD Aspirant for fall 26."
@@ -67,7 +67,7 @@ author:
   medium: # URL
   pinterest: # Username
   soundcloud: # Username
-  spotify:  # Username - Update with your Spotify artist ID
+  spotify: # Username - Update with your Spotify artist ID
   steam: # Username
   telegram: # URL
   tumblr: # Username

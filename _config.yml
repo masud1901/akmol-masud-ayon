@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale: "en-US"
 site_theme: "default" # Currently available options are "default", "air"
-title: "Md Akmol Masud"
+title: "Md Akmol Masud (Ayon)"
 title_separator: "-"
-name: &name "Md Akmol Masud"
+name: &name "Md Akmol Masud (Ayon)"
 description: &description "Md Akmol Masud's academic portfolio and research" # Update this with a general description of your site, this is the default if not overridden by a page
 url: "https://ayon.nimbusrb.com" # The base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. "/blog"
@@ -23,7 +23,7 @@ repository: "masud1901/akmol-masud-ayon"
 author:
   # Biographic information
   avatar: "profile.jpg"
-  name: "Md Akmol Masud"
+  name: "Md Akmol Masud (Ayon)"
   pronouns: # example: "she/her"
   bio: "M.Sc. Student in ICT, Jahangirnagar University. PhD Aspirant for fall 26."
   location: "Dhaka, Bangladesh"

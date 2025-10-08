@@ -21,15 +21,18 @@ RUN chown -R vscode:vscode /usr/src/app
 # Switch to the non-root user
 USER vscode
 
-# Copy Gemfile into the container (necessary for `bundle install`)
-COPY Gemfile ./
+# Copy Gemfile and Gemfile.lock into the container
+COPY Gemfile Gemfile.lock ./
 
-
+# Switch back to root temporarily to install gems system-wide
+USER root
 
 # Install bundler and dependencies
-RUN gem install connection_pool:2.5.0
 RUN gem install bundler:2.3.26
 RUN bundle install
 
-# Command to serve the Jekyll site
-CMD ["jekyll", "serve", "-H", "0.0.0.0", "-w", "--config", "_config.yml,_config_docker.yml"]
+# Switch back to non-root user
+USER vscode
+
+# Command to serve the Jekyll site with bundle exec
+CMD ["bundle", "exec", "jekyll", "serve", "-H", "0.0.0.0", "-w", "--config", "_config.yml,_config_docker.yml"]

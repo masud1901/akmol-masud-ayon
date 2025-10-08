@@ -1,0 +1,58 @@
+{% include base_path %}
+
+{% if post.id %}
+{% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+{% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: 'list' }}__item">
+    <article class="archive__item archive__item--book" itemscope itemtype="http://schema.org/Book">
+
+        {%- comment -%} Book cover image {%- endcomment -%}
+        {% if post.book_cover_url %}
+        <div class="archive__item-teaser archive__item-teaser--book">
+            <a href="{{ base_path }}{{ post.url }}" rel="permalink">
+                <img src="{{ post.book_cover_url }}" alt="{{ title }} book cover" loading="lazy">
+            </a>
+        </div>
+        {% endif %}
+
+        <h2 class="archive__item-title" itemprop="name">
+            <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+        </h2>
+
+        {% if post.author %}
+        <p class="archive__item-author" itemprop="author"><i class="fa fa-user" aria-hidden="true"></i> {{ post.author
+            }}</p>
+        {% endif %}
+
+        {% if post.rating %}
+        <p class="archive__item-rating">
+            {% for i in (1..5) %}
+            {% if i <= post.rating %} <i class="fa fa-star" aria-hidden="true"></i>
+                {% else %}
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                {% endif %}
+                {% endfor %}
+        </p>
+        {% endif %}
+
+        {% if post.date %}
+        <p class="page__meta"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%B %Y" }}</p>
+        {% endif %}
+
+        {% if post.excerpt %}
+        <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+        {% endif %}
+
+        {% if post.goodreads_url %}
+        <p class="archive__item-goodreads">
+            <a href="{{ post.goodreads_url }}" target="_blank" rel="noopener noreferrer">
+                <i class="fa fa-external-link" aria-hidden="true"></i> View on Goodreads
+            </a>
+        </p>
+        {% endif %}
+
+    </article>
+</div>

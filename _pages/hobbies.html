@@ -1,0 +1,18 @@
+---
+layout: archive
+title: "Hobbies"
+permalink: /hobbies/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% assign book_content = site.hobbies | where: "title", "Books I'm Reading" | first %}
+{{ book_content.content }}
+
+<h2>My Music on Spotify</h2>
+<p>I recently published an album on Spotify. It's been an amazing journey putting this together!</p>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6uvStslIkv1Rjli2WSk1PE" width="100%"
+    height="352" frameBorder="0" allowfullscreen=""
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>

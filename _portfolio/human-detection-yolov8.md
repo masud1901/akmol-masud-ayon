@@ -1,8 +1,10 @@
 ---
 title: "Human Detection with YOLOv8"
 collection: portfolio
+category: research
 permalink: /portfolio/human-detection-yolov8
 excerpt: 'A web application with a FastAPI backend and Streamlit frontend for human detection in images.'
+what_i_did: 'Developed full-stack web app with YOLOv8 model backend (FastAPI), Streamlit frontend, containerized with Docker, and deployed on AWS EC2.'
 date: 2024-01-01
 ---
 

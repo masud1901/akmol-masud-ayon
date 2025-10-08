@@ -5,32 +5,161 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<div class="publications-intro">
+        <p>Please find selected publications below. You can also find me on <a href="{{ site.author.googlescholar }}"
+                        target="_blank">Google Scholar</a>.</p>
+</div>
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
+<!-- Journal Articles Section -->
+<h2>Journal</h2>
+{% assign counter = 0 %}
+{% for post in site.publications reversed %}
+{% if post.venue contains 'Journal' or post.venue contains 'IEEE' or post.venue contains 'Elsevier' or post.venue
+contains 'Springer' or post.venue contains 'ACM' or post.venue contains 'Nature' or post.venue contains 'Science' or
+post.venue contains 'Computers in Biology and Medicine' %}
+{% assign counter = counter | plus: 1 %}
+<div class="publication__item">
+        <div class="publication__entry">
+                <div class="publication__number">[{{ counter }}]</div>
+                <div class="publication__content">
+                        <div class="publication__title">
+                                <em>{{ post.title }}</em>
+                                {% if post.paperurl %}
+                                <a href="{{ post.paperurl }}" class="publication__pdf">[pdf]</a>
+                                {% endif %}
+                        </div>
+                        <div class="publication__authors">{{ post.citation | split: '. (' | first }}</div>
+                        <div class="publication__venue">{{ post.venue }}, {{ post.date | default: "1900-01-01" | date:
+                                "%Y" }}</div>
+                </div>
+        </div>
+</div>
 {% endif %}
+{% endfor %}
 
+<!-- Conference Proceedings Section -->
+<h2>Conference Proceedings</h2>
+{% assign counter = 0 %}
+{% for post in site.publications reversed %}
+{% if post.venue contains 'Conference' or post.venue contains 'Proceedings' or post.venue contains 'ECCE' %}
+{% assign counter = counter | plus: 1 %}
+<div class="publication__item">
+        <div class="publication__entry">
+                <div class="publication__number">[{{ counter }}]</div>
+                <div class="publication__content">
+                        <div class="publication__title">
+                                <em>{{ post.title }}</em>
+                                {% if post.paperurl %}
+                                <a href="{{ post.paperurl }}" class="publication__pdf">[pdf]</a>
+                                {% endif %}
+                        </div>
+                        <div class="publication__authors">{{ post.citation | split: '. (' | first }}</div>
+                        <div class="publication__venue">{{ post.venue }}, {{ post.date | default: "1900-01-01" | date:
+                                "%Y" }}</div>
+                </div>
+        </div>
+</div>
+{% endif %}
+{% endfor %}
 
+<!-- Preprints Section -->
+<h2>Preprints</h2>
+{% assign counter = 0 %}
+{% for post in site.publications reversed %}
+{% if post.venue contains 'Preprint' or post.venue contains 'arXiv' or post.venue contains 'Figshare' or post.venue
+contains 'SSRN' %}
+{% assign counter = counter | plus: 1 %}
+<div class="publication__item">
+        <div class="publication__entry">
+                <div class="publication__number">[{{ counter }}]</div>
+                <div class="publication__content">
+                        <div class="publication__title">
+                                <em>{{ post.title }}</em>
+                                {% if post.paperurl %}
+                                <a href="{{ post.paperurl }}" class="publication__pdf">[pdf]</a>
+                                {% endif %}
+                        </div>
+                        <div class="publication__authors">{{ post.citation | split: '. (' | first }}</div>
+                        <div class="publication__venue">{{ post.venue }}, {{ post.date | default: "1900-01-01" | date:
+                                "%Y" }}</div>
+                </div>
+        </div>
+</div>
+{% endif %}
+{% endfor %}
 
+<style>
+        .publications-intro {
+                margin-bottom: 30px;
+                font-size: 16px;
+        }
+
+        .publications-intro a {
+                color: #0066cc;
+                text-decoration: underline;
+        }
+
+        .publications-intro a:hover {
+                text-decoration: none;
+        }
+
+        h2 {
+                font-weight: bold;
+                margin-top: 30px;
+                margin-bottom: 15px;
+                border-bottom: 1px solid #ddd;
+                padding-bottom: 5px;
+        }
+
+        .publication__item {
+                margin-bottom: 20px;
+                padding: 0;
+        }
+
+        .publication__entry {
+                display: flex;
+                align-items: flex-start;
+                gap: 10px;
+        }
+
+        .publication__number {
+                font-weight: bold;
+                min-width: 30px;
+                flex-shrink: 0;
+        }
+
+        .publication__content {
+                flex: 1;
+        }
+
+        .publication__title {
+                margin-bottom: 5px;
+                line-height: 1.3;
+        }
+
+        .publication__title em {
+                font-style: italic;
+        }
+
+        .publication__pdf {
+                margin-left: 5px;
+                text-decoration: none;
+                color: #0066cc;
+        }
+
+        .publication__pdf:hover {
+                text-decoration: underline;
+        }
+
+        .publication__authors {
+                margin-bottom: 3px;
+                line-height: 1.2;
+        }
+
+        .publication__venue {
+                line-height: 1.2;
+                color: #666;
+        }
+</style>

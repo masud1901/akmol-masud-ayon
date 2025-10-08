@@ -1,0 +1,16 @@
+---
+layout: archive
+title: "Books I've Read"
+permalink: /books/
+author_profile: true
+---
+
+{% include base_path %}
+
+<p>A collection of books I've read and my thoughts on them. I enjoy reading across various genres including technical
+    books, philosophy, fiction, and personal development.</p>
+
+{% assign books = site.books | sort: 'date' | reverse %}
+{% for post in books %}
+{% include archive-single-book.html type="grid" %}
+{% endfor %}

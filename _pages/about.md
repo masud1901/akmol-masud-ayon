@@ -1,55 +1,38 @@
 ---
+layout: archive
 permalink: /
-title: "About Md. Akmol Masud"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I am Md. Akmol Masud, an AI/ML Researcher specializing in Computer Vision and Federated Learning, currently pursuing my M.Sc. in Information and Communication Technology at the Institute of Information Technology, Jahangirnagar University, Bangladesh.
+I'm a machine learning researcher pursuing my M.Sc. at the [Institute of Information Technology, Jahangirnagar University](https://iitju.edu.bd/), focused on **trustworthy AI** and **federated learning systems**. My work investigates privacy-preserving distributed learning, communication efficiency, and robustness in heterogeneous environments.
 
-## Research Interests
+## Research Focus
 
-My research focuses on cutting-edge areas of machine learning and artificial intelligence, with particular emphasis on:
+Currently, I work with [Dr. M. Hasan, PhD](https://sph.vcu.edu/about/portfolio/details/hasanm10/) (VCU) on federated learning systems, exploring adaptive client scheduling for extreme heterogeneous clients. I'm interested in formulating extreme client heterogeneity as multi-armed bandit problems, applying reinforcement learning frameworks to optimize communication-efficient training.
 
-- **Data-Efficient Deep Learning**: Developing methods to train effective models with limited data
-- **Federated Learning**: Exploring distributed learning paradigms with privacy preservation
-- **Trustworthy AI**: Building reliable and interpretable AI systems
-- **Quantum Machine Learning**: Investigating quantum-classical hybrid approaches
-- **Medical AI**: Developing diagnostic systems for healthcare applications
-- **Computer Vision**: Advancing visual recognition and understanding systems
-- **Generative AI**: Investigating creative and generative artificial intelligence
+My research has evolved from biomedical AI to building trustworthy distributed systems. I started working with [Dr. Mohammad Abu Yousuf](https://scholar.google.com/citations?user=r2wOKBEAAAAJ&hl=en) on medical image analysis. Dealing with high-stakes healthcare data—with so much scarcity and heavy dependence on data augmentation got me thinking about how to build robust AI systems and new ways of handling non-iid datasets. Collaborating with [Md. Abrar Jahin](https://scholar.google.com/citations?user=VKKO-zAAAAAJ) on different ML problems helped me realize what I really care about: privacy-preserving and robust learning. That's what led me to federated learning.
 
-## Current Work
+I also co-founded Nimbus Research Bureau (NRB), where I lead data science projects in areas like behavioral finance and sociology. We build end-to-end pipelines for survey analysis, stock market patterns, and messy real-world data. Running this company has definitely shaped how I approach research. I want to solve real problems around data privacy, heterogeneity, and deployment challenges, not just hit benchmarks on clean datasets.
 
-I am currently working on several exciting projects that span quantum machine learning, federated learning, medical AI applications, and computer vision. My recent publications in prestigious venues like IEEE Transactions on Artificial Intelligence and various arXiv preprints demonstrate my commitment to pushing the boundaries of AI research, particularly in areas where classical and quantum computing intersect.
+## What I'm Looking For
 
-## Education & Background
+I'm seeking PhD opportunities where I can advance research at the intersection of machine learning, distributed systems, and trustworthy AI. I'm particularly drawn to programs that value interdisciplinary approaches and bridge theoretical innovation with real-world impact, whether that's in privacy-preserving systems, robust learning algorithms, or AI applications to complex data domains.
 
-I completed my B.Sc. in Information and Communication Technology from Jahangirnagar University in 2024, achieving a CGPA of 3.29/4.0 (with a strong final semester performance of 3.6). Prior to my university studies, I attended Sylhet Cadet College, where I completed both my Higher Secondary Certificate (HSC) and Secondary School Certificate (SSC) in Science, achieving perfect GPAs of 5.0/5.0 in both.
-
-## Professional Experience
-
-### Co-founder & Research Analyst - Nimbus Research Bureau (Oct 2024 – Present)
-I co-founded Nimbus Research Bureau where I design robust analytics pipelines to convert raw data into actionable, executive-level recommendations. I lead end-to-end market research projects, from survey design to delivery of strategic insights.
-
-### Media, Communications, & Membership Development Lead - IEEE JU Student Branch (Feb 2022 – Aug 2024)
-During my leadership role at IEEE JU Student Branch, I organized high-impact workshops and seminars with industry experts to enhance members' technical skills. I directed outreach campaigns that increased visibility and grew membership by 40%.
-
-## Awards & Achievements
-
-- **Top 8%** (84th out of 1,016 global teams) in Zelestra x AWS ML Ascend Challenge (Jun 2025)
-- **63rd place** in DL Enigma 1.0 – SUST CSE Carnival (Jan – Feb 2024)
-- **37th place** out of 200+ teams in CUET ETE ML Competition (Nov 2023)
-- **Bronze Standard** Duke of Edinburgh Leadership Award (Feb 2017)
-- **First Place** in 110m Hurdles, Jahangirnagar University Annual Athletics (2024-2025)
-- **Second Place** in High Jump, Jahangirnagar University Annual Athletics (2024-2025)
+**Core Research Interests:**
+- Trustworthy AI
+- Federated learning
+- Social computing and computational social science applications
+- Machine learning for complex systems (financial, social, behavioral data)
+- Communication-efficient distributed optimization
+- Reinforcement learning
 
 ## Contact
 
-Feel free to reach out to me for collaborations, research discussions, or any inquiries:
-- **Email**: akmolmasud5@gmail.com
+- **Email**: [akmolmasud5@gmail.com](mailto:akmolmasud5@gmail.com)
 - **LinkedIn**: [linkedin.com/in/akmolmasudayon](https://www.linkedin.com/in/akmolmasudayon/)
 - **GitHub**: [github.com/masud1901](https://github.com/masud1901)
 - **Google Scholar**: [scholar.google.com/citations?user=uRY4vdIAAAAJ](https://scholar.google.com/citations?user=uRY4vdIAAAAJ&hl=en)

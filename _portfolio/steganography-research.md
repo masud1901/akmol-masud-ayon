@@ -1,8 +1,10 @@
 ---
 title: "Multi-Layered Password Steganography"
 collection: portfolio
+category: research
 permalink: /portfolio/steganography-research
 excerpt: 'A novel approach for tiered information hiding with multiple password layers for enhanced security.'
+what_i_did: 'Developed novel steganography technique with multi-layer passwords using AES-CBC encryption for tiered data protection. Published at ECCE 2025.'
 date: 2025-01-01
 ---
 

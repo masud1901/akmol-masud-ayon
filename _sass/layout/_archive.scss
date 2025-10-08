@@ -75,7 +75,7 @@
 }
 
 .archive__item:hover {
-  .archive__item-teaser {
+  .archive__item-teaser:not(.archive__item-teaser--book) {
     box-shadow: 0 0 10px rgba(#000, 0.25);
   }
 
@@ -164,7 +164,7 @@
 
 .feature__item {
   margin-bottom: 2em;
-  font-size: 1.25rem;
+  font-size: 1rem;
 
   @include breakpoint($small) {
     margin-bottom: 0;
@@ -178,7 +178,7 @@
 
   &--left {
     @include full();
-    font-size: 1.25rem;
+    font-size: 1rem;
 
     .archive__item-teaser {
       margin-bottom: 2em;
@@ -199,7 +199,7 @@
 
   &--right {
     @include full();
-    font-size: 1.25rem;
+    font-size: 1rem;
 
     .archive__item-teaser {
       margin-bottom: 2em;
@@ -222,7 +222,7 @@
 
   &--center {
     @include full();
-    font-size: 1.25rem;
+    font-size: 1rem;
 
     .archive__item-teaser {
       margin-bottom: 2em;
@@ -241,5 +241,361 @@
         width: span(7 of 12);
       }
     }
+  }
+}
+
+
+/*
+   Hobbies Section - Media Embeds
+   ========================================================================== */
+
+// Responsive video container for YouTube embeds
+.archive__item-media--youtube {
+  margin-bottom: 1em;
+
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; // 16:9 aspect ratio
+    height: 0;
+    overflow: hidden;
+    border-radius: $border-radius;
+
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+// Spotify embed styling
+.archive__item-media--spotify {
+  margin-bottom: 1em;
+  border-radius: $border-radius;
+  overflow: hidden;
+
+  iframe {
+    width: 100%;
+    height: 380px;
+    border-radius: $border-radius;
+  }
+}
+
+// Thumbnail with play button overlay for lazy-loaded videos
+.archive__item-teaser--hobby {
+  position: relative;
+  margin-bottom: 1em;
+  border-radius: $border-radius;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
+  .play-button-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.2em;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+    pointer-events: none;
+  }
+
+  &:hover {
+    img {
+      transform: scale(1.05);
+    }
+
+    .play-button-overlay {
+      color: #ff0000; // YouTube red
+      font-size: 3.6em;
+    }
+  }
+}
+
+// Enhanced grid layout for hobbies
+.archive__item--hobby {
+  .archive__item-title {
+    font-size: $type-size-5;
+    margin-top: 0.5em;
+  }
+}
+
+
+/*
+   Books Section - Book Cards with Cover Images
+   ========================================================================== */
+
+// Book card styling
+.archive__item--book {
+  .archive__item-title {
+    font-size: $type-size-5;
+    margin-top: 0.5em;
+    margin-bottom: 0.25em;
+  }
+
+  .archive__item-author {
+    font-size: $type-size-6;
+    color: var(--global-text-color-light);
+    margin: 0.25em 0;
+    font-style: italic;
+  }
+
+  .archive__item-rating {
+    margin: 0.5em 0;
+    font-size: $type-size-6;
+
+    .fa-star {
+      color: #ffa500;
+    }
+
+    .fa-star-o {
+      color: #ccc;
+    }
+  }
+
+  .archive__item-goodreads {
+    margin: 0.5em 0;
+    font-size: $type-size-7;
+
+    a {
+      color: var(--global-text-color-light);
+      text-decoration: none;
+
+      &:hover {
+        color: var(--global-link-color-hover);
+        text-decoration: underline;
+      }
+
+      .fa-external-link {
+        margin-right: 0.25em;
+      }
+    }
+  }
+}
+
+// Book cover image styling
+.archive__item-teaser--book {
+  margin-bottom: 1em;
+  border-radius: $border-radius;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  aspect-ratio: 2/3;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
+  &:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+
+    img {
+      transform: scale(1.02);
+    }
+  }
+}
+
+// Grid layout for books (similar to portfolio grid)
+.grid__item .archive__item--book {
+  .archive__item-teaser--book {
+    max-height: 300px;
+
+    img {
+      object-fit: cover;
+      height: 100%;
+    }
+  }
+
+  @include breakpoint($small) {
+    .archive__item-teaser--book {
+      max-height: 250px;
+    }
+  }
+
+  @include breakpoint($medium) {
+    .archive__item-teaser--book {
+      max-height: 280px;
+    }
+  }
+}
+
+/*
+   Certifications Section - Certificate Cards with Badges
+   ========================================================================== */
+
+// Certification card styling
+.archive__item--certification {
+  position: relative;
+  padding-top: 2em;
+
+  .archive__item-title {
+    font-size: $type-size-5;
+    margin-top: 0.5em;
+    margin-bottom: 0.25em;
+  }
+
+  .archive__item-issuer {
+    font-size: $type-size-6;
+    color: var(--global-text-color-light);
+    margin: 0.25em 0;
+    font-weight: 500;
+  }
+
+  .archive__item-status {
+    margin: 0.5em 0;
+  }
+
+  .archive__item-credential {
+    margin: 0.5em 0;
+    font-size: $type-size-7;
+
+    a {
+      color: var(--global-text-color-light);
+      text-decoration: none;
+      font-weight: 500;
+
+      &:hover {
+        color: var(--global-link-color-hover);
+        text-decoration: underline;
+      }
+
+      .fa-external-link {
+        margin-right: 0.25em;
+      }
+    }
+  }
+}
+
+// Certification badge icon
+.archive__item-certification-badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1.6em;
+  color: #4CAF50;
+  opacity: 0.8;
+
+  .fa-certificate {
+    color: #4CAF50; // Green for completed
+  }
+
+  .fa-hourglass-half {
+    color: #FF9800; // Orange for in progress
+  }
+
+  .fa-award {
+    color: #2196F3; // Blue for other
+  }
+}
+
+// Status badges
+.status-badge {
+  display: inline-block;
+  padding: 0.25em 0.75em;
+  border-radius: 12px;
+  font-size: $type-size-7;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+
+  &--completed {
+    background-color: rgba(76, 175, 80, 0.1);
+    color: #4CAF50;
+    border: 1px solid rgba(76, 175, 80, 0.3);
+  }
+
+  &--in-progress {
+    background-color: rgba(255, 152, 0, 0.1);
+    color: #FF9800;
+    border: 1px solid rgba(255, 152, 0, 0.3);
+  }
+}
+
+// Grid layout for certifications
+.grid__item .archive__item--certification {
+  border: 1px solid var(--global-border-color);
+  border-radius: $border-radius;
+  padding: 1.5em;
+  transition: all 0.3s ease;
+  background-color: var(--global-background-color);
+
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+    border-color: var(--global-link-color);
+
+    .archive__item-certification-badge {
+      opacity: 1;
+      transform: scale(1.1);
+    }
+  }
+
+  .archive__item-certification-badge {
+    transition: all 0.3s ease;
+  }
+}
+
+// Certificate overlay styles (similar to hobbies)
+.archive__item-teaser--certification {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
+  &:hover img {
+    transform: scale(1.05);
+  }
+
+  .certificate-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9em;
+    font-weight: 600;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+
+    i {
+      font-size: 1.2em;
+    }
+  }
+
+  &:hover .certificate-overlay {
+    opacity: 1;
   }
 }

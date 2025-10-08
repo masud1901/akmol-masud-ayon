@@ -1,8 +1,10 @@
 ---
 title: "Ice Cream Brand Analysis"
 collection: portfolio
+category: nimbus
 permalink: /portfolio/ice-cream-analysis
 excerpt: 'Data analysis of consumer preferences and market trends in the ice cream industry.'
+what_i_did: 'Conducted comprehensive market research analyzing consumer preferences, brand popularity, and market trends for ice cream brands in Bangladesh.'
 date: 2024-01-01
 ---
 

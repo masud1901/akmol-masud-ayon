@@ -1,0 +1,55 @@
+{% include base_path %}
+
+{% if post.id %}
+{% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+{% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: 'list' }}__item">
+    <article class="archive__item archive__item--hobby" itemscope itemtype="http://schema.org/CreativeWork">
+
+        {%- comment -%} Handle different media types {%- endcomment -%}
+        {% if post.media_type == "youtube_embed" %}
+        <div class="archive__item-media archive__item-media--youtube">
+            <div class="video-container">
+                <iframe src="{{ post.media_url }}" frameborder="0" loading="lazy"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+        {% elsif post.media_type == "spotify_embed" %}
+        <div class="archive__item-media archive__item-media--spotify">
+            <iframe style="border-radius:12px" src="{{ post.media_url }}" width="100%" height="352" frameborder="0"
+                allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy" title="Spotify player: {{ title }}"></iframe>
+        </div>
+        {% elsif post.media_type == "youtube_link" %}
+        {% if post.thumbnail %}
+        <div class="archive__item-teaser archive__item-teaser--hobby">
+            <a href="{{ post.media_url }}" target="_blank" rel="noopener noreferrer">
+                <img src="{{ post.thumbnail }}" alt="{{ title }}" loading="lazy">
+                <div class="play-button-overlay">
+                    <i class="fab fa-youtube" aria-hidden="true"></i>
+                </div>
+            </a>
+        </div>
+        {% else %}
+        <p><a href="{{ post.media_url }}" target="_blank" rel="noopener noreferrer">Watch on YouTube</a></p>
+        {% endif %}
+        {% endif %}
+
+        <h2 class="archive__item-title" itemprop="headline">
+            <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+        </h2>
+
+        {% if post.date %}
+        <p class="page__meta"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%B %d, %Y" }}</p>
+        {% endif %}
+
+        {% if post.excerpt %}
+        <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+        {% endif %}
+
+    </article>
+</div>

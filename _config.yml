@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale: "en-US"
 site_theme: "default" # Currently available options are "default", "air"
-title: "Md. Akmol Masud"
+title: "Md Akmol Masud"
 title_separator: "-"
-name: &name "Md. Akmol Masud"
-description: &description "Md. Akmol Masud's academic portfolio and research" # Update this with a general description of your site, this is the default if not overridden by a page
+name: &name "Md Akmol Masud"
+description: &description "Md Akmol Masud's academic portfolio and research" # Update this with a general description of your site, this is the default if not overridden by a page
 url:
   https://masud1901.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
   # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
@@ -24,13 +24,13 @@ repository: "masud1901/akmol-masud-ayon"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar: "profile.png"
-  name: "Md. Akmol Masud"
+  avatar: "profile.jpg"
+  name: "Md Akmol Masud"
   pronouns: # example: "she/her"
-  bio: "M.Sc. Student in Information and Communication Technology, Institute of Information Technology, Jahangirnagar University. Research interests in Data-Efficient Deep Learning, Federated Learning, Trustworthy AI, and Computer Vision."
+  bio: "M.Sc. Student in ICT, Jahangirnagar University. PhD Aspirant for fall 26."
   location: "Dhaka, Bangladesh"
-  employer: "Institute of Information Technology, Jahangirnagar University"
-  uri: "https://masud1901.github.io/ayon"
+  employer: "Jahangirnagar University"
+  uri: "https://akmolmasudayon.github.io"
   email: "akmolmasud5@gmail.com"
 
   # Academic websites
@@ -69,6 +69,7 @@ author:
   medium: # URL
   pinterest: # Username
   soundcloud: # Username
+  spotify:  # Username - Update with your Spotify artist ID
   steam: # Username
   telegram: # URL
   tumblr: # Username
@@ -77,7 +78,7 @@ author:
   weibo: # Username
   wikipedia: # Username
   xing: # Username
-  youtube: # Username
+  # youtube: "YourYouTubeChannelHandle" # Username - Update with your actual YouTube channel handle
   zhihu: # Username
 
 # Publication Category - The following the list of publication categories and their headings
@@ -224,6 +225,15 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  hobbies:
+    output: true
+    permalink: /:collection/:path/
+  books:
+    output: true
+    permalink: /:collection/:path/
+  certifications:
+    output: true
+    permalink: /:collection/:path/
 
 # These settings control how pages and collections are included in the site
 defaults:
@@ -280,6 +290,33 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _hobbies
+  - scope:
+      path: ""
+      type: hobbies
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _books
+  - scope:
+      path: ""
+      type: books
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _certifications
+  - scope:
+      path: ""
+      type: certifications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
 
 # Sass/SCSS
 sass:

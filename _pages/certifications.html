@@ -1,0 +1,62 @@
+---
+layout: archive
+title: "Certifications & Professional Development"
+permalink: /certifications/
+author_profile: true
+---
+
+{% include base_path %}
+
+<p>I'm passionate about continuous learning and staying up-to-date with the latest technologies. Here are the
+    certifications and specializations I've earned to enhance my research skills and technical expertise:</p>
+
+{% assign certifications = site.certifications | sort: 'date' | reverse %}
+
+<style>
+    .certification-details {
+        display: none;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+
+    .certification-details.expanded {
+        display: block;
+    }
+
+    .see-more-link {
+        color: #0066cc;
+        cursor: pointer;
+        text-decoration: underline;
+        font-size: 0.9em;
+    }
+
+    .see-more-link:hover {
+        text-decoration: none;
+    }
+</style>
+
+<ul>
+    {% for post in certifications %}
+    <li>
+        <a href="{{ post.credential_url }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a> - {{
+        post.excerpt }}
+        <span class="see-more-link" onclick="toggleDetails('cert-{{ forloop.index }}', this)">[See more]</span>
+        <div id="cert-{{ forloop.index }}" class="certification-details">
+            {{ post.content }}
+        </div>
+    </li>
+    {% endfor %}
+</ul>
+
+<script>
+    function toggleDetails(id, link) {
+        var details = document.getElementById(id);
+        if (details.classList.contains('expanded')) {
+            details.classList.remove('expanded');
+            link.innerHTML = '[See more]';
+        } else {
+            details.classList.add('expanded');
+            link.innerHTML = '[See less]';
+        }
+    }
+</script>

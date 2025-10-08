@@ -11,23 +11,29 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/
+  # Hidden sections - structure preserved for future use
+  # - title: "Talks"
+  #   url: /talks/
 
-  - title: "Teaching"
-    url: /teaching/
+  # - title: "Teaching"
+  #   url: /teaching/
 
-  - title: "Portfolio"
-    url: /portfolio/
-
-  - title: "Blog Posts"
-    url: /year-archive/
+  - title: "Certifications"
+    url: /certifications/
 
   - title: "CV"
-    url: /cv-json/
+    url: https://drive.google.com/file/d/1Ip0aCNmJgtb1-v32RExzgbfkaSBUxzR-/view
 
-  # - title: "CV"
-  #   url: /cv-json/
+  # Hidden sections - structure preserved for future use
+  # - title: "Blog Posts"
+  #   url: /year-archive/
 
-  - title: "Guide"
-    url: /markdown/
+  - title: "Hobbies"
+    url: /hobbies/
+
+  - title: "Contact"
+    url: /contact/
+
+  # Hidden sections - structure preserved for future use
+  # - title: "Guide"
+  #   url: /markdown/

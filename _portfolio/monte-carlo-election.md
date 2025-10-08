@@ -1,8 +1,10 @@
 ---
 title: "Monte Carlo Simulation for Bangladesh Election"
 collection: portfolio
+category: fun
 permalink: /portfolio/monte-carlo-election
 excerpt: 'Statistical Modeling for Political Analysis using Monte Carlo methods for electoral pattern analysis.'
+what_i_did: 'Developed Monte Carlo simulation models to analyze electoral patterns and political spectrum distribution in Bangladesh elections.'
 date: 2024-01-01
 ---
 

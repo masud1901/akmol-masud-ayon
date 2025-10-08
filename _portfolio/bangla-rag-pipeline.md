@@ -1,8 +1,10 @@
 ---
 title: "Multilingual RAG System - Bangla Text Book Pipeline"
 collection: portfolio
+category: research
 permalink: /portfolio/bangla-rag-pipeline
 excerpt: 'A sophisticated RAG system for Bengali textbook question answering with dual embedding strategy.'
+what_i_did: 'Built a complete RAG system with dual embedding (Cohere + OpenAI), OCR for Bengali, FastAPI backend, Streamlit GUI, and deployed on AWS EC2.'
 date: 2024-01-01
 ---
 

@@ -7,8 +7,40 @@ author_profile: true
 
 {% include base_path %}
 
+<p>Here's a collection of my work organized by category:</p>
 
+<!-- Nimbus Research Bureau Projects -->
+<h2>🏢 Nimbus Research Bureau Projects</h2>
+<p>Client projects and market research work done through Nimbus Research Bureau.</p>
 {% for post in site.portfolio %}
-  {% include archive-single.html %}
+{% if post.category == 'nimbus' %}
+{% include archive-single.html %}
+{% endif %}
 {% endfor %}
 
+<!-- Research & Academic Projects -->
+<h2>🔬 Research & Academic Projects</h2>
+<p>Research-focused projects involving machine learning, AI, and data science.</p>
+{% for post in site.portfolio %}
+{% if post.category == 'research' %}
+{% include archive-single.html %}
+{% endif %}
+{% endfor %}
+
+<!-- Fun & Personal Projects -->
+<h2>🎮 Fun & Personal Projects</h2>
+<p>Side projects built for fun, learning, or solving personal interests.</p>
+{% for post in site.portfolio %}
+{% if post.category == 'fun' %}
+{% include archive-single.html %}
+{% endif %}
+{% endfor %}
+
+<!-- Tools & Utilities -->
+<h2>🛠️ Tools & Utilities</h2>
+<p>Packages, tools, and utilities I've built.</p>
+{% for post in site.portfolio %}
+{% if post.category == 'tools' %}
+{% include archive-single.html %}
+{% endif %}
+{% endfor %}

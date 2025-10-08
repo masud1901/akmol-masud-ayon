@@ -4,10 +4,10 @@
     "email": "akmolmasud5@gmail.com",
     "phone": "+880-1304-963440",
     "website": "https://masud1901.github.io/ayon",
-    "summary": "AI/ML Researcher specializing in Computer Vision and Federated Learning. M.Sc. Student in Information and Communication Technology at Jahangirnagar University with expertise in quantum machine learning, medical AI, and data-efficient deep learning.",
+    "summary": "AI/ML Researcher specializing in Computer Vision and Federated Learning. M.Sc. Student in Information and Communication Technology at Jahangirnagar University.",
     "location": {
-      "address": "",
-      "postalCode": "",
+      "address": "Mirpur-13",
+      "postalCode": "1206",
       "city": "Dhaka",
       "countryCode": "BD",
       "region": "Bangladesh"
@@ -37,61 +37,33 @@
       "website": "",
       "startDate": "2024-10-01",
       "endDate": "Present",
-      "summary": "Designed robust analytics pipelines to convert raw data into actionable, executive-level recommendations. Led end-to-end market research projects, from survey design to delivery of strategic insights.",
+      "summary": "Working to make better survey design and analytics products.",
       "highlights": [
-        "Designed robust analytics pipelines for executive-level recommendations",
-        "Led end-to-end market research projects from survey design to strategic insights"
-      ]
-    },
-    {
-      "company": "IEEE JU Student Branch",
-      "position": "Media, Communications, & Membership Development Lead",
-      "website": "",
-      "startDate": "2022-02-01",
-      "endDate": "2024-08-01",
-      "summary": "Organized high-impact workshops and seminars with industry experts. Directed outreach campaigns, increasing visibility and growing membership by 40%.",
-      "highlights": [
-        "Organized workshops and seminars with industry experts",
-        "Increased membership by 40% through strategic outreach campaigns"
+        "Conducted market research projects along with political surveys and presneted insights to clients."
       ]
     }
   ],
   "education": [
     {
-      "institution": "Institute of Information Technology, Jahangirnagar University",
-      "area": "M.Sc. in Information and Communication Technology",
-      "studyType": "Masters",
-      "startDate": "2024-10",
-      "endDate": "Present",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "Institute of Information Technology, Jahangirnagar University",
-      "area": "B.Sc. in Information and Communication Technology",
-      "studyType": "Bachelors",
+      "institution": "Jahangirnagar University",
+      "area": "ICT",
+      "studyType": "B.Sc.",
       "startDate": "2019-02",
-      "endDate": "2024-09",
-      "gpa": "3.29",
-      "courses": []
+      "endDate": "2024-09"
     },
     {
       "institution": "Sylhet Cadet College",
-      "area": "Higher Secondary Certificate (HSC) - Science",
+      "area": "Science",
       "studyType": "High School",
       "startDate": "2016-04",
-      "endDate": "2018-05",
-      "gpa": "5.0",
-      "courses": []
+      "endDate": "2018-05"
     },
     {
       "institution": "Sylhet Cadet College",
-      "area": "Secondary School Certificate (SSC) - Science",
+      "area": "Science",
       "studyType": "High School",
       "startDate": "2014-01",
-      "endDate": "2016-04",
-      "gpa": "5.0",
-      "courses": []
+      "endDate": "2016-04"
     }
   ],
   "skills": [
@@ -107,10 +79,7 @@
         "Deep Learning",
         "Federated Learning",
         "Computer Vision",
-        "Quantum Machine Learning",
-        "TensorFlow",
-        "PyTorch",
-        "Scikit-learn"
+        "Pytorch"
       ]
     },
     {
@@ -120,26 +89,19 @@
         "Data Analysis",
         "Statistical Modeling",
         "Data Visualization",
-        "Pandas",
-        "NumPy",
-        "Matplotlib",
-        "Seaborn"
+        "Data Cleaning",
+        "EDA"
       ]
     },
     {
       "name": "Web Development",
       "level": "Intermediate",
-      "keywords": ["FastAPI", "Streamlit", "Docker", "AWS EC2", "RESTful APIs"]
+      "keywords": ["FastAPI", "Streamlit", "Docker", "AWS EC2"]
     },
     {
       "name": "Research & Analysis",
       "level": "Advanced",
-      "keywords": [
-        "Research Design",
-        "Market Research",
-        "Data Pipeline Design",
-        "Statistical Analysis"
-      ]
+      "keywords": ["Research Design", "Market Research", "Statistical Analysis"]
     }
   ],
   "languages": [
@@ -154,29 +116,12 @@
   ],
   "interests": [
     "Data-Efficient Deep Learning",
+    "Applied Statistical Methods",
+    "Applied Data Science",
     "Federated Learning",
     "Trustworthy AI",
-    "Robust Machine Learning",
     "Computer Vision",
-    "Generative AI",
-    "Quantum Machine Learning"
-  ],
-  "certifications": [
-    {
-      "name": "IBM Data Science Professional Certificate",
-      "date": "2025-04-01",
-      "issuer": "IBM via Coursera",
-      "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/FX63HAR6A571",
-      "summary": "12-course specialization covering Python (NumPy, Pandas), SQL, data cleaning, visualization, exploratory data analysis, and introductory supervised learning. Applied these skills through hands-on projects, strengthening foundations for data-driven research."
-    },
-    {
-      "name": "Reinforcement Learning Specialization",
-      "date": "2025-12-01",
-      "issuer": "University of Alberta via Coursera",
-      "url": "https://www.coursera.org/specializations/reinforcement-learning",
-      "summary": "4-course advanced specialization in reinforcement learning: k-armed bandit problems, Markov Decision Processes, dynamic programming, temporal-difference methods, policy gradient approaches, and deep RL. Building strong theoretical grounding for applications in federated and distributed learning systems.",
-      "status": "Ongoing"
-    }
+    "Generative AI"
   ],
   "awards": [
     {
@@ -214,131 +159,6 @@
       "reference": "Vice-Chancellor, Gazipur Digital University; Professor, Institute of Information Technology, Jahangirnagar University",
       "email": "yousuf@juniv.edu",
       "phone": "+880 1711-469636"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Stabilizing Federated Learning under Extreme Heterogeneity with HeteRo-Select",
-      "publisher": "arXiv",
-      "releaseDate": "2025-08-01",
-      "website": "https://arxiv.org/abs/2508.06692",
-      "summary": "A novel approach to stabilize federated learning under extreme data heterogeneity using the HeteRo-Select method."
-    },
-    {
-      "name": "Enhanced Alzheimer's Brain Scan Dataset: Normal and Synthesized",
-      "publisher": "Zenodo Dataset",
-      "releaseDate": "2024-01-01",
-      "website": "https://doi.org/10.5281/zenodo.14238547",
-      "summary": "A comprehensive dataset of normal and synthesized Alzheimer's brain scans for developing and testing diagnostic models."
-    },
-    {
-      "name": "MosqVision-3K: A Balanced Multi-Source Dataset of 3,000 Annotated Images for Culex, Anopheles, and Aedes Mosquito Species Classification",
-      "publisher": "Zenodo Dataset",
-      "releaseDate": "2024-01-01",
-      "website": "https://doi.org/10.5281/zenodo.14238701",
-      "summary": "A balanced dataset containing 3,000 annotated images of three major mosquito species for classification tasks."
-    },
-    {
-      "name": "KACQ-DCNN: Uncertainty-Aware Interpretable Kolmogorov-Arnold Classical-Quantum Dual-Channel Neural Network for Heart Disease Detection",
-      "publisher": "arXiv",
-      "releaseDate": "2024-10-01",
-      "website": "https://arxiv.org/abs/2410.07446",
-      "summary": "A hybrid classical-quantum neural network with uncertainty awareness and interpretability for heart disease detection."
-    },
-    {
-      "name": "MosQNet-SA: Explainable convolutional-attention network for mosquito classification with application as a RESTful API for dengue and malaria risk mapping",
-      "publisher": "Figshare",
-      "releaseDate": "2024-12-01",
-      "website": "https://doi.org/10.6084/m9.figshare.27996986.v2",
-      "summary": "An explainable CNN with an attention mechanism for mosquito classification, deployed as a RESTful API for disease risk mapping."
-    },
-    {
-      "name": "Lorentz-Equivariant Quantum Graph Neural Network for High-Energy Physics",
-      "publisher": "IEEE Transactions on Artificial Intelligence",
-      "releaseDate": "2025-01-01",
-      "website": "https://doi.org/10.1109/TAI.2025.3554461",
-      "summary": "A quantum graph neural network that respects Lorentz symmetry, designed for high-energy physics applications."
-    },
-    {
-      "name": "Multi-Layered Password-Based Steganography: A Novel Approach for Tiered Information Hiding",
-      "publisher": "ECCE 2025 Conference Proceedings",
-      "releaseDate": "2025-01-01",
-      "website": "https://doi.org/10.1109/ECCE64574.2025.11013270",
-      "summary": "A new steganography technique using multiple password layers for enhanced security and tiered data hiding."
-    },
-    {
-      "name": "Dream: A Novel Explainable Neural Network for Detecting Sleep Apnea Using Single-Lead ECG Signals",
-      "publisher": "SSRN",
-      "releaseDate": "2025-01-01",
-      "website": "https://doi.org/10.2139/ssrn.5139337",
-      "summary": "An explainable deep learning model named Dream for accurate sleep apnea detection from single-lead ECG signals."
-    },
-    {
-      "name": "Quantum Rationale-Aware Graph Contrastive Learning for Jet Discrimination",
-      "publisher": "arXiv",
-      "releaseDate": "2024-11-01",
-      "website": "https://arxiv.org/abs/2411.01642",
-      "summary": "A novel graph contrastive learning method with quantum computing principles for improved jet discrimination in particle physics."
-    },
-    {
-      "name": "Pseudo-RGB Data Augmentation for Improved Alzheimer's Disease Detection: An Analysis of CNN Performance",
-      "publisher": "Figshare",
-      "releaseDate": "2024-01-01",
-      "website": "https://doi.org/10.6084/m9.figshare.27997094.v1",
-      "summary": "An analysis of a pseudo-RGB data augmentation technique to enhance the performance of CNNs for Alzheimer's detection."
-    }
-  ],
-  "presentations": [],
-  "teaching": [],
-  "portfolio": [
-    {
-      "name": "Multilingual RAG System - Bangla Text Book Pipeline",
-      "category": "RAG",
-      "date": "2024",
-      "url": "https://github.com/masud1901/bangla-rag-pipeline",
-      "description": "Built a complete Retrieval-Augmented Generation (RAG) system that understands both English and Bengali. Features dual embedding strategy (Cohere + OpenAI), advanced reranking, OCR processing for Bengali text, and a FastAPI backend with Streamlit GUI. Successfully deployed on AWS EC2 with Nginx reverse proxy. The system ingests HSC Bangla textbooks and provides intelligent question answering capabilities."
-    },
-    {
-      "name": "Human Detection with YOLOv8",
-      "category": "Computer Vision",
-      "date": "2024",
-      "url": "https://github.com/masud1901/human-detection-through-yolov8",
-      "description": "Developed a full-stack web application for detecting humans in user-uploaded images. Features a YOLO object detection model backend (FastAPI), a Streamlit frontend, and is fully containerized with Docker for easy deployment on an AWS EC2 instance."
-    },
-    {
-      "name": "Multi-Layered Password Steganography",
-      "category": "Security",
-      "date": "2025",
-      "url": "https://github.com/masud1901/Multi-Layered-Password-Based-Steganography",
-      "description": "Developing a novel steganography technique using multiple password layers for enhanced security and tiered data protection, based on research for ECCE 2025."
-    },
-    {
-      "name": "Privacy-Robustness Bound in Federated Learning",
-      "category": "Federated Learning",
-      "date": "2024",
-      "url": "https://github.com/masud1901/Privacy-Robustness-Bound-aggrigation",
-      "description": "This research proposes and empirically validates a Privacy-Robustness Bound (PRB), a theoretical framework for quantifying the trade-off between differential privacy and model robustness against poisoning attacks in federated learning."
-    },
-    {
-      "name": "Monte Carlo Simulation for Bangladesh Election",
-      "category": "Statistics",
-      "date": "2024",
-      "url": "https://github.com/masud1901/Bangladesh-Political-Landscape-with-Monte-Carlo-Simulation",
-      "description": "Developing statistical models using Monte Carlo methods to analyze electoral patterns and political spectrum distribution in Bangladesh."
-    },
-    {
-      "name": "Ice Cream Brand Analysis",
-      "category": "Data Analysis",
-      "date": "2024",
-      "url": "https://github.com/masud1901/Ice-cream-brand-analysis",
-      "description": "An analysis project focused on the ice cream market, exploring brand popularity, consumer sentiment, and market trends using modern data analysis techniques."
-    },
-    {
-      "name": "Clickshots Package",
-      "category": "Python",
-      "date": "2024",
-      "url": "https://github.com/masud1901/clickshot",
-      "description": "Building a comprehensive Python package for automated screenshot capture and processing with advanced image manipulation capabilities."
     }
   ],
   "extracurricular": [

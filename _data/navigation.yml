@@ -24,9 +24,8 @@ main:
   - title: "CV"
     url: https://drive.google.com/file/d/1Ip0aCNmJgtb1-v32RExzgbfkaSBUxzR-/view
 
-  # Hidden sections - structure preserved for future use
-  # - title: "Blog Posts"
-  #   url: /year-archive/
+  - title: "Blog Posts"
+    url: /year-archive/
 
   - title: "Hobbies"
     url: /hobbies/

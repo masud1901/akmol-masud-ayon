@@ -16,9 +16,22 @@ author_profile: true
 <h2>Journal</h2>
 {% assign counter = 0 %}
 {% for post in site.publications reversed %}
+{% assign is_journal = false %}
 {% if post.venue contains 'Journal' or post.venue contains 'IEEE' or post.venue contains 'Elsevier' or post.venue
 contains 'Springer' or post.venue contains 'ACM' or post.venue contains 'Nature' or post.venue contains 'Science' or
 post.venue contains 'Computers in Biology and Medicine' %}
+{% assign is_journal = true %}
+{% endif %}
+{% assign is_conference = false %}
+{% if post.venue contains 'Conference' or post.venue contains 'Proceedings' or post.venue contains 'ECCE' %}
+{% assign is_conference = true %}
+{% endif %}
+{% assign is_preprint = false %}
+{% if post.venue contains 'Preprint' or post.venue contains 'arXiv' or post.venue contains 'Figshare' or post.venue
+contains 'SSRN' %}
+{% assign is_preprint = true %}
+{% endif %}
+{% if is_journal and is_preprint == false and is_conference == false %}
 {% assign counter = counter | plus: 1 %}
 <div class="publication__item">
         <div class="publication__entry">
@@ -43,7 +56,22 @@ post.venue contains 'Computers in Biology and Medicine' %}
 <h2>Conference Proceedings</h2>
 {% assign counter = 0 %}
 {% for post in site.publications reversed %}
+{% assign is_journal = false %}
+{% if post.venue contains 'Journal' or post.venue contains 'IEEE' or post.venue contains 'Elsevier' or post.venue
+contains 'Springer' or post.venue contains 'ACM' or post.venue contains 'Nature' or post.venue contains 'Science' or
+post.venue contains 'Computers in Biology and Medicine' %}
+{% assign is_journal = true %}
+{% endif %}
+{% assign is_conference = false %}
 {% if post.venue contains 'Conference' or post.venue contains 'Proceedings' or post.venue contains 'ECCE' %}
+{% assign is_conference = true %}
+{% endif %}
+{% assign is_preprint = false %}
+{% if post.venue contains 'Preprint' or post.venue contains 'arXiv' or post.venue contains 'Figshare' or post.venue
+contains 'SSRN' %}
+{% assign is_preprint = true %}
+{% endif %}
+{% if is_conference and is_journal == false and is_preprint == false %}
 {% assign counter = counter | plus: 1 %}
 <div class="publication__item">
         <div class="publication__entry">
@@ -68,8 +96,22 @@ post.venue contains 'Computers in Biology and Medicine' %}
 <h2>Preprints</h2>
 {% assign counter = 0 %}
 {% for post in site.publications reversed %}
+{% assign is_journal = false %}
+{% if post.venue contains 'Journal' or post.venue contains 'IEEE' or post.venue contains 'Elsevier' or post.venue
+contains 'Springer' or post.venue contains 'ACM' or post.venue contains 'Nature' or post.venue contains 'Science' or
+post.venue contains 'Computers in Biology and Medicine' %}
+{% assign is_journal = true %}
+{% endif %}
+{% assign is_conference = false %}
+{% if post.venue contains 'Conference' or post.venue contains 'Proceedings' or post.venue contains 'ECCE' %}
+{% assign is_conference = true %}
+{% endif %}
+{% assign is_preprint = false %}
 {% if post.venue contains 'Preprint' or post.venue contains 'arXiv' or post.venue contains 'Figshare' or post.venue
 contains 'SSRN' %}
+{% assign is_preprint = true %}
+{% endif %}
+{% if is_preprint and is_journal == false and is_conference == false %}
 {% assign counter = counter | plus: 1 %}
 <div class="publication__item">
         <div class="publication__entry">

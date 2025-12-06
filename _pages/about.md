@@ -14,13 +14,13 @@ I'm a machine learning researcher and M.Sc. candidate at the [Institute of Infor
 
 ## Research Focus
 
-I previously worked with [Dr. M. Hasan, PhD](https://sph.vcu.edu/about/portfolio/details/hasanm10/) (VCU) on **federated learning** and **trustworthy AI**, focusing on extreme client heterogeneity and communication-efficient optimization. I explore **multi-armed bandit** and **reinforcement learning** formulations for client selection and scheduling—ideas I now adapt to social platforms, where each "client" can be a noisy, biased slice of a population or network.
+I worked with [Dr. M. Hasan, PhD](https://sph.vcu.edu/about/portfolio/details/hasanm10/) (VCU) on **federated learning** and **trustworthy AI**, focusing on extreme client heterogeneity and communication-efficient optimization. I explore **multi-armed bandit** and **reinforcement learning** formulations for client selection and scheduling.
 
-My earlier work in biomedical AI with [Dr. Mohammad Abu Yousuf](https://scholar.google.com/citations?user=r2wOKBEAAAAJ&hl=en) taught me to care about data scarcity, robustness, and real-world failure modes. That experience now informs how I think about safety and bias in social computing systems.
+My earlier work in biomedical AI with [Dr. Mohammad Abu Yousuf](https://scholar.google.com/citations?user=r2wOKBEAAAAJ&hl=en) taught me to care about biomedical data scarcity and robustness of ML models.
 
 ## What I'm Looking For
 
-I'm seeking **PhD opportunities in Information Science / iSchools** where I can study the link between **network topology**, **algorithmic curation**, and **collective behavior** in the context of platforms, elections, and large-scale social systems. I'm also open to **Computer Science PhD programs** that work on machine learning for networks, social data, and trustworthy AI.
+I'm seeking **PhD opportunities** where I can study the link between **network topology**, **algorithmic curation**, and **collective behavior** in the context of platforms, elections, and large-scale social systems.
 
 ## Core Research Interests
 

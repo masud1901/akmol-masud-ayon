@@ -8,27 +8,48 @@ redirect_from:
   - /about.html
 ---
 
-I'm a machine learning researcher pursuing my M.Sc. at the [Institute of Information Technology, Jahangirnagar University](https://iitju.edu.bd/), focused on **trustworthy AI** and **federated learning systems**. My work investigates privacy-preserving distributed learning, communication efficiency, and robustness in heterogeneous environments.
+## About Me
+
+I'm a machine learning researcher and M.Sc. candidate at the [Institute of Information Technology, Jahangirnagar University](https://iitju.edu.bd/). My work sits at the intersection of **computational social science**, **social sensing**, and **robust machine learning**. I work on and help maintain systems like [VoteBD](https://votebd.nimbusrb.com/) and [Melange](https://melange.nimbusrb.com/) to study how information, incentives, and algorithms shape collective behavior in the real world.
 
 ## Research Focus
 
-Currently, I work with [Dr. M. Hasan, PhD](https://sph.vcu.edu/about/portfolio/details/hasanm10/) (VCU) on federated learning systems, exploring adaptive client scheduling for extreme heterogeneous clients. I'm interested in formulating extreme client heterogeneity as multi-armed bandit problems, applying reinforcement learning frameworks to optimize communication-efficient training.
+### Social Sensing & Information Dynamics
 
-My research has evolved from biomedical AI to building trustworthy distributed systems. I started working with [Dr. Mohammad Abu Yousuf](https://scholar.google.com/citations?user=r2wOKBEAAAAJ&hl=en) on medical image analysis. Dealing with high-stakes healthcare data—with so much scarcity and heavy dependence on data augmentation got me thinking about how to build robust AI systems and new ways of handling non-iid datasets. Collaborating with [Md. Abrar Jahin](https://scholar.google.com/citations?user=VKKO-zAAAAAJ) on different ML problems helped me realize what I really care about: privacy-preserving and robust learning. That's what led me to federated learning.
+I design systems that turn messy, high-velocity social data into structured signals about public mood, narrative shifts, and coordinated campaigns. Through platforms like **Melange**, I experiment with **neuro-symbolic pipelines** that combine LLMs, temporal modeling, and graph structure to detect early warning signals across heterogeneous information streams.
 
-I also co-founded Nimbus Research Bureau (NRB), where I lead data science projects in areas like behavioral finance and sociology. We build end-to-end pipelines for survey analysis, stock market patterns, and messy real-world data. Running this company has definitely shaped how I approach research. I want to solve real problems around data privacy, heterogeneity, and deployment challenges, not just hit benchmarks on clean datasets.
+On the electoral side, **VoteBD** is a nationwide, anonymous election forecasting platform that uses **privacy-preserving device fingerprinting** to approximate "one person, one vote" without collecting personal data. It serves as a ground-truth bridge between online diffusion patterns and offline political behavior.
+
+### Distributed & Robust Learning for Social Systems
+
+I previously worked with [Dr. M. Hasan, PhD](https://sph.vcu.edu/about/portfolio/details/hasanm10/) (VCU) on **federated learning** and **trustworthy AI**, focusing on extreme client heterogeneity and communication-efficient optimization. I explore **multi-armed bandit** and **reinforcement learning** formulations for client selection and scheduling—ideas I now adapt to social platforms, where each "client" can be a noisy, biased slice of a population or network.
+
+My earlier work in biomedical AI with [Dr. Mohammad Abu Yousuf](https://scholar.google.com/citations?user=r2wOKBEAAAAJ&hl=en) taught me to care about data scarcity, robustness, and real-world failure modes. That experience now informs how I think about safety and bias in social computing systems.
+
+### Graph, Geometric & Quantum Deep Learning
+
+Methodologically, I draw on **graph representation learning** and **geometric / quantum deep learning**. My publications include work on **Lorentz-equivariant quantum graph neural networks** and **hybrid classical–quantum models** for high-stakes decision-making. These tools help me reason about non-Euclidean structure in both physical systems and social interaction graphs.
+
+## Engineering & Leadership
+
+I co-founded **Nimbus Research Bureau (NRB)**, where I lead R&D on production-grade social sensing and analytics platforms:
+
+- **VoteBD**: An anonymous, crowd-sourced election forecasting platform for Bangladesh that emphasizes **open methodology**, **radical transparency**, and **privacy by design**.
+- **Melange**: An invite-only intelligence system that provides early-warning social signals for organizations by aggregating multi-platform data into interpretable indicators.
+
+Building and operating these systems has strongly shaped my research philosophy: credible theories about information dynamics and human–AI alignment must be tested in the wild, not just on static benchmarks.
 
 ## What I'm Looking For
 
-I'm seeking PhD opportunities where I can advance research at the intersection of machine learning, distributed systems, and trustworthy AI. I'm particularly drawn to programs that value interdisciplinary approaches and bridge theoretical innovation with real-world impact, whether that's in privacy-preserving systems, robust learning algorithms, or AI applications to complex data domains.
+I'm seeking **PhD opportunities in Information Science / iSchools** where I can study the link between **network topology**, **algorithmic curation**, and **collective behavior** in the context of platforms, elections, and large-scale social systems. I'm also open to **Computer Science PhD programs** that work on machine learning for networks, social data, and trustworthy AI.
 
-**Core Research Interests:**
-- Trustworthy AI
-- Federated learning
-- Social computing and computational social science applications
-- Machine learning for complex systems (financial, social, behavioral data)
-- Communication-efficient distributed optimization
-- Reinforcement learning
+## Core Research Interests
+
+- Computational social science and information diffusion
+- Social sensing, dashboards, and platform analytics
+- Graph representation learning and geometric deep learning
+- Federated and robust learning for heterogeneous, real-world data
+- Human–AI alignment in recommender and ranking systems
 
 ## Contact
 

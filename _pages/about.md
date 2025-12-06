@@ -14,25 +14,11 @@ I'm a machine learning researcher and M.Sc. candidate at the [Institute of Infor
 
 ## Research Focus
 
-### Social Sensing & Information Dynamics
-
-I design systems that turn messy, high-velocity social data into structured signals about public mood, narrative shifts, and coordinated campaigns. Through platforms like **Melange**, I experiment with **neuro-symbolic pipelines** that combine LLMs, temporal modeling, and graph structure to detect early warning signals across heterogeneous information streams.
-
-On the electoral side, **VoteBD** is a nationwide, anonymous election forecasting platform that uses **privacy-preserving device fingerprinting** to approximate "one person, one vote" without collecting personal data. It serves as a ground-truth bridge between online diffusion patterns and offline political behavior.
-
-### Distributed & Robust Learning for Social Systems
-
 I previously worked with [Dr. M. Hasan, PhD](https://sph.vcu.edu/about/portfolio/details/hasanm10/) (VCU) on **federated learning** and **trustworthy AI**, focusing on extreme client heterogeneity and communication-efficient optimization. I explore **multi-armed bandit** and **reinforcement learning** formulations for client selection and scheduling—ideas I now adapt to social platforms, where each "client" can be a noisy, biased slice of a population or network.
 
 My earlier work in biomedical AI with [Dr. Mohammad Abu Yousuf](https://scholar.google.com/citations?user=r2wOKBEAAAAJ&hl=en) taught me to care about data scarcity, robustness, and real-world failure modes. That experience now informs how I think about safety and bias in social computing systems.
 
-### Graph, Geometric & Quantum Deep Learning
-
-Methodologically, I draw on **graph representation learning** and **geometric / quantum deep learning**. My publications include work on **Lorentz-equivariant quantum graph neural networks** and **hybrid classical–quantum models** for high-stakes decision-making. These tools help me reason about non-Euclidean structure in both physical systems and social interaction graphs.
-
-## Engineering & Leadership
-
-I co-founded **Nimbus Research Bureau (NRB)**, where I lead R&D on production-grade social sensing and analytics platforms:
+I co-founded **Nimbus Research**, where I lead R&D on production-grade social sensing and analytics platforms:
 
 - **VoteBD**: An anonymous, crowd-sourced election forecasting platform for Bangladesh that emphasizes **open methodology**, **radical transparency**, and **privacy by design**.
 - **Melange**: An invite-only intelligence system that provides early-warning social signals for organizations by aggregating multi-platform data into interpretable indicators.

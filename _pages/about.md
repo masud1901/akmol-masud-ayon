@@ -18,13 +18,6 @@ I previously worked with [Dr. M. Hasan, PhD](https://sph.vcu.edu/about/portfolio
 
 My earlier work in biomedical AI with [Dr. Mohammad Abu Yousuf](https://scholar.google.com/citations?user=r2wOKBEAAAAJ&hl=en) taught me to care about data scarcity, robustness, and real-world failure modes. That experience now informs how I think about safety and bias in social computing systems.
 
-I co-founded **Nimbus Research**, where I lead R&D on production-grade social sensing and analytics platforms:
-
-- **VoteBD**: An anonymous, crowd-sourced election forecasting platform for Bangladesh that emphasizes **open methodology**, **radical transparency**, and **privacy by design**.
-- **Melange**: An invite-only intelligence system that provides early-warning social signals for organizations by aggregating multi-platform data into interpretable indicators.
-
-Building and operating these systems has strongly shaped my research philosophy: credible theories about information dynamics and human–AI alignment must be tested in the wild, not just on static benchmarks.
-
 ## What I'm Looking For
 
 I'm seeking **PhD opportunities in Information Science / iSchools** where I can study the link between **network topology**, **algorithmic curation**, and **collective behavior** in the context of platforms, elections, and large-scale social systems. I'm also open to **Computer Science PhD programs** that work on machine learning for networks, social data, and trustworthy AI.

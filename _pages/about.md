@@ -14,9 +14,7 @@ I'm a machine learning researcher and M.Sc. candidate at the [Institute of Infor
 
 ## Research Focus
 
-I worked with [Dr. M. Hasan, PhD](https://sph.vcu.edu/about/portfolio/details/hasanm10/) (VCU) on **federated learning** and **trustworthy AI**, focusing on extreme client heterogeneity and communication-efficient optimization. I explore **multi-armed bandit** and **reinforcement learning** formulations for client selection and scheduling.
-
-My earlier work in biomedical AI with [Dr. Mohammad Abu Yousuf](https://scholar.google.com/citations?user=r2wOKBEAAAAJ&hl=en) taught me to care about biomedical data scarcity and robustness of ML models.
+I worked with [Dr. M. Hasan, PhD](https://sph.vcu.edu/about/portfolio/details/hasanm10/) (VCU) on **federated learning** and **trustworthy AI**, focusing on extreme client heterogeneity and communication-efficient optimization. Previously, under the supervision of [Dr. Mohammad Abu Yousuf](https://scholar.google.com/citations?user=r2wOKBEAAAAJ&hl=en) , I worked on biomedical AI problems, which shaped my interest in learning under data scarcity and building robust machine learning systems that generalize reliably beyond idealized settings.
 
 ## What I'm Looking For
 
